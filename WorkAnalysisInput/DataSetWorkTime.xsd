@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetWorkTime" targetNamespace="http://tempuri.org/DataSetWorkTime.xsd" xmlns:mstns="http://tempuri.org/DataSetWorkTime.xsd" xmlns="http://tempuri.org/DataSetWorkTime.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetWorkTime" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetWorkTime" msprop:Generator_UserDSName="DataSetWorkTime">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableWorkTime" msprop:Generator_TableClassName="DataTableWorkTimeDataTable" msprop:Generator_TableVarName="tableDataTableWorkTime" msprop:Generator_TablePropName="DataTableWorkTime" msprop:Generator_RowDeletingName="DataTableWorkTimeRowDeleting" msprop:Generator_RowChangingName="DataTableWorkTimeRowChanging" msprop:Generator_RowEvHandlerName="DataTableWorkTimeRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableWorkTimeRowDeleted" msprop:Generator_UserTableName="DataTableWorkTime" msprop:Generator_RowChangedName="DataTableWorkTimeRowChanged" msprop:Generator_RowEvArgName="DataTableWorkTimeRowChangeEvent" msprop:Generator_RowClassName="DataTableWorkTimeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="日付" msprop:Generator_ColumnVarNameInTable="column日付" msprop:Generator_ColumnPropNameInRow="日付" msprop:Generator_ColumnPropNameInTable="日付Column" msprop:Generator_UserColumnName="日付" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="始業時間" msprop:Generator_ColumnVarNameInTable="column始業時間" msprop:Generator_ColumnPropNameInRow="始業時間" msprop:Generator_ColumnPropNameInTable="始業時間Column" msprop:Generator_UserColumnName="始業時間" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="終業時間" msprop:Generator_ColumnVarNameInTable="column終業時間" msprop:Generator_ColumnPropNameInRow="終業時間" msprop:Generator_ColumnPropNameInTable="終業時間Column" msprop:Generator_UserColumnName="終業時間" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="労働時間" msprop:Generator_ColumnVarNameInTable="column労働時間" msprop:Generator_ColumnPropNameInRow="労働時間" msprop:Generator_ColumnPropNameInTable="労働時間Column" msprop:Generator_UserColumnName="労働時間" type="xs:duration" minOccurs="0" />
+              <xs:element name="残業時間" msprop:Generator_ColumnVarNameInTable="column残業時間" msprop:Generator_ColumnPropNameInRow="残業時間" msprop:Generator_ColumnPropNameInTable="残業時間Column" msprop:Generator_UserColumnName="残業時間" type="xs:duration" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
